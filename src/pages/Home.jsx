@@ -2,6 +2,8 @@ import React from 'react'
 import Avatar from "../assets/images/mainbg/avatar.png"
 
 function Home() {
+    
+    
   return (
     <div id='/'>
       <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0  mt-6 rounded-md px-5 py-3 bg-white   xs:mt-0 xs:p-0 xs:bg-none 2xs:mt-0 2xs:p-0 border border-gray-400 shadow-md shadow-gray-500">
@@ -47,7 +49,7 @@ function Home() {
         </section>
 
         <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0 mt-6 rounded-md  bg-white  xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none 2xs:mt-0 2xs:p-0 2xs:bg-none border-2 border-gray-400">
-            <div className="row flex  xs:flex-col sm:flex-col 2xs:flex-col items-center justify-between">
+            <div className="row flex  xs:flex-col sm:flex-col 2xs:flex-col ">
                 <div className="col-lg-2 flex flex-col  pr-11 p-5  xs:flex-row xs:space-x-14 sm:flex-row sm:space-x-40 sm:border-b xs:border-b 2xs:flex-row 2xs:space-x-6 2xs:border-b 2xs:p-2">
                     <div className="-space-y-1 xs:-space-y-0 xs:pt-4 2xs:-space-y-0 2xs:pt-4 sm:pt-4">
                         <h1 className="text-xl font-bold 2xs:text-lg">Deals and offers</h1>
@@ -325,7 +327,7 @@ function Home() {
 
         <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0  mt-6 rounded-md xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none 2xs:mx-2 2xs:mt-3 2xs:p-0 2xs:bg-none ">
             <h1 className="text-2xl font-bold">Recommended items</h1>
-            <div className="flex flex-wrap gap-5 mt-4 2xs:gap-2 justify-evenly">
+            <div className="flex flex-wrap gap-5 mt-4 2xs:gap-2 justify-center">
                 <div className="bg-white shadow-md shadow-gray-400   px-3 py-2 rounded-md border border-gray-400 hover:animate-pulse">
                     <a href="#">
                         <img src="/src/assets/images/section6/shirt.png" className="w-48 2xs:w-32" alt="" />
@@ -433,73 +435,73 @@ function Home() {
             </div>
         </section>
 
-        <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0  mt-6 rounded-md   xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none 2xs:mx-4 2xs:mt-3 2xs:p-0 2xs:bg-none ">
+        <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0  mt-6 rounded-md   xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none 2xs:mx-0 2xs:mt-3 2xs:p-0 2xs:bg-none ">
             <h1 className="text-2xl font-bold mb-5">Suppliers by region</h1>
-            <div className="flex flex-wrap gap-6 2xs:gap-2 xs:gap-2 justify-center ">
-                <div className="flex w-52">
+            <div className="flex flex-wrap gap-x-16 gap-y-4 2xs:gap-2 xs:gap-2 justify-center ">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/uae.webp" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Arabic Emirates</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/australia.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Australia</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/usa.png" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">United States</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/russia.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Russia</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/itzly.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Italy</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/denmark.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Denmark    </h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex  w-52">
+                <div className="flex  w-44">
                     <img src="/src/assets/images/flags/france.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">france</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/ger.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Germany</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/china.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">China</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
-                <div className="flex w-52">
+                <div className="flex w-44">
                     <img src="/src/assets/images/flags/britain.jpeg" className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Great Britain</h1>

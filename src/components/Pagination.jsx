@@ -8,7 +8,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
                 disabled={currentPage === 1}
                 className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
             >
-                Previous
+                &#x2770;
             </button>
 
             {[...Array(totalPages)].map((_, index) => (
@@ -26,7 +26,8 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
                 disabled={currentPage === totalPages}
                 className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
             >
-                Next
+                &#x2771;
+
             </button>
         </div>
     );

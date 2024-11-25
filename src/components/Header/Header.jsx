@@ -1,5 +1,6 @@
 import {useState, useRef, useEffect} from 'react'
 import Logo from '../../assets/images/logo/logo.png'
+import { Link } from 'react-router-dom';
 function Header() {
     const [menuVisible, setMenuVisible] = useState(false);
     const menuRef = useRef(null);
@@ -43,7 +44,7 @@ function Header() {
                 </div>
 
                 <div className="flex  items-center space-x-6 mz-auto sm:hidden xs:hidden ">
-                <a href="" className="flex flex-col items-center text-gray-400 "><i className="fa-solid fa-user w-5  mr-1 md:pt-2 md:text-xl 2xs:pt-2 2xs:text-2xl"></i><p className="md:hidden 2xs:hidden">Profile</p></a>
+                <a href="" className="flex flex-col items-center text-gray-400 "><i className="fa-solid fa-user w-5  mr-1 md:pt-2 md:text-xl 2xs:pt-2 2xs:text-2xl xs:fa-regular"></i><p className="md:hidden 2xs:hidden">Profile</p></a>
                 <a href="#" className="flex flex-col items-center text-gray-400 md:hidden 2xs:hidden"><i className="fa-solid fa-message w-5  mr-1 "></i><p>Message</p></a>
                 <a href="" className="flex flex-col items-center text-gray-400 md:hidden 2xs:hidden"><i className="fa-solid fa-heart w-5 mr-1 "></i><p>Orders</p></a>
                 <a href="" className="flex flex-col items-center text-gray-400"><i className="fa-solid fa-cart-shopping w-5  mr-1 md:pt-2 md:text-2xl 2xs:pt-2 2xs:text-2xl"></i><p className="md:hidden 2xs:hidden">My cart</p></a>
@@ -77,7 +78,7 @@ function Header() {
                    className={`absolute flex flex-col space-y-2 mt-8 shadow-lg rounded-lg shadow-gray-600 bg-white ${
                     menuVisible ? '' : 'hidden'
                     }`}>
-                    <a href="products" className="hover:bg-blue-100 px-3 py-1">Automobiles</a>
+                    <Link to="products" className="hover:bg-blue-100 px-3 py-1">Automobiles</Link>
                     <a href="#" className="hover:bg-blue-100 px-3 py-1">Clothes amd wear</a>
                     <a href="#" className="hover:bg-blue-100 px-3 py-1">Home interiors</a>
                     <a href="#" className="hover:bg-blue-100 px-3 py-1">Tools, equipments</a>

@@ -62,8 +62,8 @@ function Footer() {
                     <div className="space-y-4">
                         <h1 className="font-bold text-xl">Get App</h1>
                         <div className="space-y-3">
-                            <a href="#" className="flex text-white bg-black gap-2 font-semibold rounded-md shadow-md shadow-gray-800 px-3 py-2"><i className="fa-brands fa-apple pt-1"></i><p>App Store</p></a>
-                            <a href="#" className="flex text-white bg-black gap-2 font-semibold rounded-md shadow-md shadow-gray-800 px-3 py-2"><i className="fa-brands fa-google-play pt-1"></i><p>Play Store</p></a>
+                            <a href="#" className="flex text-white bg-black gap-2 font-semibold rounded-md shadow-md shadow-gray-800 px-3 py-3"><i className="fa-brands fa-apple pt-1"></i><p className='flex-col flex leading-3'><span className='text-[10px] font-light '>Download on the</span>App Store</p></a>
+                            <a href="#" className="flex text-white bg-black gap-2 font-semibold rounded-md shadow-md shadow-gray-800 px-3 py-3"><i className="fa-brands fa-google-play pt-1"></i><p className='flex-col flex leading-3'><span className='text-[10px] font-light '>Get it on</span>Play Store</p></a>
                         </div>
                     </div>
                   </div>
@@ -71,10 +71,16 @@ function Footer() {
         </section>
         <section className="bg-gray-300">
             <div className="mx-24 rounded-md  xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0  xs:p-0 xs:bg-none 2xs:mx-0 2xs:mt-3 2xs:p-0 2xs:bg-none py-5">
-                <div className="flex  flex-wrap">
+                <div className="flex   justify-between">
                     <h1 className="text-gray-500">&copy; 2024 Ecommerce</h1>
-                    <div className="flex pl-96 gap-1  mx-auto  text-gray-500 ">
-                        <img src="/src/assets/images/flags/usa.png" className="w-5 h-4 mt-1.5 " alt=""/>English 
+                    <div className="flex gap-1  text-gray-500 ">
+                        <img src="/src/assets/images/flags/usa.png" className="w-5 h-4 mt-1.5 " alt=""/>
+                        <div>
+                        <select className='bg-gray-300 text-'>
+                            <option >English</option>
+                           < option >Duetesch</option>
+                            </select> 
+                        </div>
                     </div>
                 </div>
             </div>
