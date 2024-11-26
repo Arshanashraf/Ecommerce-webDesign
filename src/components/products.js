@@ -1,5 +1,5 @@
 export const products = [
-    { id: 1, name: "Smartphone", price: 699, rating: 4.5, category: "Electronics", brand: "Apple", image: "/src/assets/images/section2/smartWatch.png" },
+    { id: 1, name: "Smartphone", price: 699,discount1: 650, discount2: 600, rating: 4.5, category: "Electronics", brand: "Apple", image: "/src/assets/images/section2/smartWatch.png" },
     { id: 2, name: "Laptop", price: 999, rating: 4.7, category: "Electronics", brand: "Samsung", image: "laptop.jpg" },
     { id: 3, name: "T-Shirt", price: 29, rating: 4.1, category: "Clothing", brand: "Sony", image: "tshirt.jpg" },
     { id: 4, name: "Tablet", price: 499, rating: 4.2, category: "Electronics", brand: "Apple", image: "tablet.jpg" },
