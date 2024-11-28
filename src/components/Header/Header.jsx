@@ -78,7 +78,7 @@ function Header() {
                    className={`absolute flex flex-col space-y-2 mt-8 shadow-lg rounded-lg shadow-gray-600 bg-white ${
                     menuVisible ? '' : 'hidden'
                     }`}>
-                    <a href="/products" className="hover:bg-blue-100 px-3 py-1">Automobiles</a>
+                    <Link to="/products" clLinkssName="hover:bg-blue-100 px-3 py-1">Automobiles</Link>
                     <a href="/products" className="hover:bg-blue-100 px-3 py-1">Clothes and wear</a>
                     <a href="/products" className="hover:bg-blue-100 px-3 py-1">Home interiors</a>
                     <a href="/products" className="hover:bg-blue-100 px-3 py-1">Tools, equipments</a>
