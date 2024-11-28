@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import AllProducts from '../components/AllProducts';
-import Pagination from '../components/pagination';
+import PaginationBar from '../components/PaginationBar';
 import { products } from '../components/products';
 
 const Products = () => {
@@ -60,7 +60,7 @@ const Products = () => {
                 <div className="flex-1">
                     <AllProducts products={currentProducts} />
                     {filteredProducts.length > itemsPerPage && (
-                        <Pagination
+                        <PaginationBar
                             currentPage={currentPage}
                             totalPages={totalPages}
                             onPageChange={handlePageChange}
