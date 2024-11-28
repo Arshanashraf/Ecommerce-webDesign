@@ -55,7 +55,7 @@ const Products = () => {
 
     return (
         <div id="/products">
-            <div className="container mx-auto mt-6 flex gap-6">
+            <div className=" mx-20 mt-6 flex gap-6 2xs:gap-2 2xs:mx-1 xs:mx-2 sm:mx-5 md:mx-5">
                 <Sidebar filters={filters} onFilterChange={handleFilterChange} />
                 <div className="flex-1">
                     <AllProducts products={currentProducts} />
@@ -68,6 +68,24 @@ const Products = () => {
                     )}
                 </div>
             </div>
+            <section class="mt-6 bg-gray-300 xs:mt-2 sm:mt-2 xs:p-0   2xs:mt-3 2xs:p-0  ">
+            <div class="text-center py-10">
+                <h1 class="text-2xl font-bold">Subscribe on our newsletter</h1>
+                <p class="text-gray-600">Get daily news on upcoming offers from many suppliers all over the world</p>
+                <div class="mt-5">
+                    <div class="">
+                        <i class="fa-regular fa-envelope translate-x-8 text-gray-400"></i>
+                        <input 
+                          type="text" 
+                          placeholder="Email" 
+                          class="pl-10 py-2 border border-gray-300 w-72 rounded-md"
+                        />
+                        <button class="bg-blue-600 text-white py-2 px-4 rounded-md ml-1">Subscribe</button>
+                      </div>
+                </div>
+            </div>
+            
+        </section>
         </div>
     );
 };
