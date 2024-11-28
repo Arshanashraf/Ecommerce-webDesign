@@ -29,12 +29,12 @@ const AllProducts = ({ products }) => {
             <a href={`/details/${product.id}`}>
               <div
                 key={product.id}
-                className="bg-white border border-gray-300 shadow-md shadow-gray-400 rounded-lg flex  p-4 hover:scale-105 transition-transform xs:flex-col sm:flex-col lg:flex-col 2xs:flex-col"
+                className="bg-white border border-gray-300 shadow-md shadow-gray-400 rounded-lg flex gap-2 p-4 hover:scale-105 transition-transform xs:flex-col sm:flex-col lg:flex-col 2xs:flex-col"
               >
             <img
               src={product.image}
               alt={product.name}
-              className="w-[210px] object-cover rounded"
+              className="w-[210px] h-[210px]  object-cover rounded"
             />
             <div>
             <div className="flex justify-between w-full"><h3 className="text-lg font-semibold mt-2 ">{product.name}</h3> <a href=""><i class="fa-regular fa-heart text-xl text-blue-500 font-semi-bold border border-gray-300 rounded-md px-2 py-1.5"></i></a></div>

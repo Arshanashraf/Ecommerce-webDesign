@@ -22,7 +22,7 @@ const Detailedpage = () => {
       <p className='text-gray-500 py-3'>Home <span className='px-1'>&#62;</span> Clothings <span className='px-1'>&#62;</span> Men's wear <span className='px-1'>&#62;</span> Summer clothing</p>
       <div className='flex bg-white px-4 pt-4 pb-8 justify-evenly gap-3 flex-wrap border border-gray-300 rounded-md shadow-md shadow-gray-400'>
         <div>
-          <div className='p-2 border border-gray-300 bg-white rounded-md shadow-md shadow-gray-200'><img src={product.image} alt={product.name} className='w-[380px] '/></div>
+          <div className='p-2 border border-gray-300 bg-white rounded-md shadow-md shadow-gray-200 hover:scale-150'><img src={product.image} alt={product.name} className='w-[380px] '/></div>
           <div>
             <div className='grid grid-cols-6 mt-4'>
               <img src={product.image} alt="" className=' w-[56px] border border-black p-2 rounded-md'/>
