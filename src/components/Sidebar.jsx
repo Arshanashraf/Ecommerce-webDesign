@@ -32,7 +32,7 @@ const Sidebar = ({ filters, onFilterChange }) => {
       <div className="mb-6 border-b border-gray-300 pb-4">
         <h3 className="font-medium text-gray-700">Brand</h3>
         <ul className="mt-2 space-y-2 mb-3">
-          {["Apple", "Samsung", "Sony", "Huawei", "Lenovo"].map((brand) => (
+          {["Apple", "Samsung", "Nike", "Sony", "Lenovo"].map((brand) => (
             <li key={brand}>
               <input
                 type="checkbox"

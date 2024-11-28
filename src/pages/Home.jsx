@@ -77,54 +77,60 @@ function Home() {
                     </div>
                     
                 </div>
-                <div className="flex 2xs:flex-wrap 2xs:mx-2 2xs:mt-4 2xs:gap-2  xs:flex-wrap xs:mx- xs:mt-4 xs:mx-4 xs:gap-2 sm:flex sm:flex-row items-center justify-center">
-                    <div className="col-lg-2 border xs:rounded-md xs:border 2xs:rounded-md 2xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
+                <div className="flex 2xs:flex-wrap 2xs:mx-2 2xs:mt-4 2xs:gap-2 xs:pb-5 2xs:pb-5  xs:flex-wrap xs:mx- xs:mt-4 xs:mx-4 xs:gap-2 sm:flex sm:flex-row items-center justify-center">
+                    <a href="/products">
+                    <div className="col-lg-2 h-[240px] border xs:rounded-md xs:border 2xs:rounded-md 2xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/smartWatch.png" alt="" className="w-36"  />
                             <h1 className="font-semibold ">Smart watches</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
                     </div>
-                    <div className="col-lg-2 border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
+                    </a>
+                    <a href="/products">
+                    <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/laptop.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">Laptops</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-15%</p>
                         </div>
-                    </div>
-                    <div className="col-lg-2 border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
+                    </div></a>
+                    <a href="/products">
+                    <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/goproCamera.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">GoPro Cameras</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-40%</p>
                         </div>
-                    </div>
-                    <div className="col-lg-2 border 2xs:rounded-md 2xs:border xs:rounded-md xs:border  p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
+                    </div></a>
+                    <a href="/products">
+                    <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md xs:border  p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/headphones.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">Headphones</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
-                    </div>
-                    <div className="col-lg-2 border 2xs:rounded-md 2xs:border xs:rounded-md xs:border p-5 border-gray-400 md:hidden xs:hidden 2xs:hidden hover:scale-105 bg-white transition-transform">
+                    </div></a>
+                    <a href="/products">
+                    <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md xs:border p-5 border-gray-400 md:hidden xs:hidden 2xs:hidden hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/canonCameras.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">Canon Cameras</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
-                    </div>
+                    </div></a>
                 </div>
                 
             </div>
         </section>
 
-        <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0 mt-6 rounded-md md:border md:border-gray-400 md:bg-white 2xs:border 2xs:border-gray-400 2xs:bg-white  xs:border xs:border-gray-400 xs:bg-white  sm:border sm:border-gray-400 sm:bg-white xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none  2xs:mt-0 2xs:p-0 2xs:bg-none shadow-md shadow-gray-500">
-            <div className="row flex md:flex-col xs:flex-col  sm:flex-col 2xs:flex-col items-center justify-between">
-                <div className="p-5 font-bold  bg-white  text-xl  lg:hidden xl:hidden 2xl:hidden 3xl:hidden">Home and outdoor</div>
-                <div className="col1 bg-cover p-5 h-[260px] md:text-center xs:hidden sm:hidden 2xs:hidden md:hidden  w-[513px]" style={{background:'url("/src/assets/images/section3/bg1.png")', backgroundRepeat: "no-repeat"}}>
+        <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0 mt-6 rounded-md md:border md:border-gray-400 md:bg-white lg:bg-white 2xs:border 2xs:border-gray-400 2xs:bg-white  xs:border xs:border-gray-400 xs:bg-white  sm:border sm:border-gray-400 sm:bg-white xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none  2xs:mt-0 2xs:p-0 2xs:bg-none shadow-md shadow-gray-500">
+            <div className=" flex md:flex-col xs:flex-col lg:flex-col  sm:flex-col 2xs:flex-col ">
+                <div className="p-5 font-bold  bg-white  text-xl  xl:hidden 2xl:hidden 3xl:hidden">Home and outdoor</div>
+                <div className="col1  p-5 h-[260px] md:text-center xs:hidden sm:hidden 2xs:hidden md:hidden lg:hidden  w-[513px]" style={{background:'url("/src/assets/images/section3/bg1.png")', backgroundRepeat: "no-repeat" ,}}>
                     <div >
                         <h1 className=" font-bold text-xl mb-6">Home and<br />outdoor</h1>
-                        <a href="#" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</a>
+                        <a href="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</a>
                     </div>
                 </div>
                 <div className="col2  flex flex-wrap 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5 justify-center">
@@ -201,18 +207,18 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <a href="#" className="p-5 font-bold  bg-white text-blue-600 text-xl  lg:hidden xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</a>
+                <a href="/products" className="p-5 font-bold  bg-white text-blue-600 text-xl   xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</a>
             </div>
         </section>
 
-        <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0 mt-6 rounded-md md:border md:border-gray-400 md:bg-white 2xs:border 2xs:border-gray-400 2xs:bg-white  xs:border xs:border-gray-400 xs:bg-white  sm:border sm:border-gray-400 sm:bg-white xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none  2xs:mt-0 2xs:p-0 2xs:bg-none shadow-md shadow-gray-500">
+        <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0 mt-6 rounded-md md:border md:border-gray-400 md:bg-white lg:bg-white 2xs:border 2xs:border-gray-400 2xs:bg-white  xs:border xs:border-gray-400 xs:bg-white  sm:border sm:border-gray-400 sm:bg-white xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none  2xs:mt-0 2xs:p-0 2xs:bg-none shadow-md shadow-gray-500">
             <div className="row flex md:flex-col xs:flex-col  sm:flex-col 2xs:flex-col justify-between items-center">
-                <div className="p-5 font-bold  bg-white  text-xl  lg:hidden xl:hidden 2xl:hidden 3xl:hidden">Consumer electronics and gadgets</div>
-                <div className="col1 bg-cover p-5  md:text-center xs:hidden sm:hidden 2xs:hidden md:hidden w-[513px] h-[260px]"
+                <div className="p-5 font-bold  bg-white  text-xl   xl:hidden 2xl:hidden 3xl:hidden">Consumer electronics and gadgets</div>
+                <div className="col1 bg-cover p-5  md:text-center xs:hidden lg:hidden sm:hidden 2xs:hidden md:hidden w-[513px] h-[260px]"
                 style={{background:'url("/src/assets/images/section4/bg2.png")', backgroundRepeat:"no-repeat"}} >
                     <div >
                         <h1 className=" font-bold text-xl mb-6">Consumer<br/>electronics and <br/> gadgets </h1>
-                        <a href="#" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</a>
+                        <a href="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</a>
                     </div>
                 </div>
                 <div className="col2  flex flex-wrap justify-center 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5">
@@ -289,7 +295,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <a href="#" className="p-5 font-bold  bg-white text-blue-600 text-xl  lg:hidden xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</a>
+                <a href="/products" className="p-5 font-bold  bg-white text-blue-600 text-xl   xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</a>
             </div>
         </section>
 
@@ -329,70 +335,70 @@ function Home() {
             <h1 className="text-2xl font-bold">Recommended items</h1>
             <div className="flex flex-wrap gap-5 mt-4 2xs:gap-2 justify-center">
                 <div className="bg-white shadow-md shadow-gray-400   px-3 py-2 rounded-md border border-gray-400 hover:animate-pulse">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/shirt.png" className="w-48 2xs:w-32" alt="" />
                         <h1 className="font-bold pt-3 text-lg">10.30$</h1>
                         <p className="text-sm text-gray-500 w-40">T-shirts with multiple colors for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/shirt3.png" className="w-48 2xs:w-32" alt="" />
                         <h1 className="font-bold pt-3">12.50$</h1>
                         <p className="text-sm text-gray-500 w-40">Brown winter coat medium size</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/suit.png" className="w-48 2xs:w-32" alt="" />
                         <h1 className="font-bold pt-3">34.30$</h1>
                         <p className="text-sm text-gray-500 w-40">Blue suit for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/wallet.png" className="w-48 2xs:w-32" alt="" />
                         <h1 className="font-bold pt-3">10.30$</h1>
                         <p className="text-sm text-gray-500 w-40">Blue wallet for men leather material</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/bag.png" className="w-48" alt="" />
                         <h1 className="font-bold pt-3">99.0$</h1>
                         <p className="text-sm text-gray-500 w-40">Jeans bag for travel for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/short.png" className="w-48" alt="" />
                         <h1 className="font-bold pt-3">9.99$</h1>
                         <p className="text-sm text-gray-500 w-40">Jeans short for travel for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/headphone2.png" className="w-48" alt="" />
                         <h1 className="font-bold pt-3">99.0$</h1>
                         <p className="text-sm text-gray-500 w-40">Headset for gaming with mic</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/shirt2.png" className="w-48" alt="" />
                         <h1 className="font-bold pt-3">10.00$</h1>
                         <p className="text-sm text-gray-500 w-40">T-shirts with multiple colors for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/wallet.png" className="w-48" alt="" />
                         <h1 className="font-bold pt-3">34.00$</h1>
                         <p className="text-sm text-gray-500 w-40">Leather wallet</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
-                    <a href="#">
+                    <a href="/products">
                         <img src="/src/assets/images/section6/kettle.png" className="w-48" alt="" />
                         <h1 className="font-bold pt-3">80.90$</h1>
                         <p className="text-sm text-gray-500 w-40">Kettle </p>
