@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pagination = ({ currentPage, totalPages, onPageChange }) => {
+const PaginationBar = ({ currentPage, totalPages, onPageChange }) => {
     return (
         <div className="pagination  flex justify-center items-center space-x-2 my-4">
             <button
@@ -33,4 +33,4 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     );
 };
 
-export default Pagination;
+export default PaginationBar;
