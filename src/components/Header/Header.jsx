@@ -98,15 +98,22 @@ function Header({ onSearchChange }) {
         </div>
       </nav>
       <nav className=" -mt-3 w-full px-0 sm:hidden xs:hidden md:hidden lg:hidden xl:hidden 2xl:hidden 3xl:hidden">
-        <div className="flex items-center mb-2">
+        <div className="flex items-center mx-2 justify-center mb-2">
           <input
             type="text"
             placeholder="Search"
             value={searchQuery}
             onChange={handleSearchChange}
             onKeyDown={handleSearchKeyDown}
-            className="mx-4 w-full border border-blue-400 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className=" w-full border border-blue-400 rounded-l-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
+          
+          <button
+              onClick={handleSearchButtonClick}
+              className="bg-blue-500 text-white px-4 py-2 h-[42px] rounded-r-md"
+            >
+              <i className='fa-solid fa-magnifying-glass text-white'></i>
+            </button>
         </div>
         <div className="space-x-2 mx-4 mb-2">
           <Link to="/products" className="text-sm text-blue-500 bg-gray-300 rounded-md px-2 py-1">
