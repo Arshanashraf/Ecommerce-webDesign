@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const AllProducts = ({ products }) => {
   return (
     <main className="flex-1">
@@ -26,9 +27,9 @@ const AllProducts = ({ products }) => {
         <div className="grid grid-cols-1 xs:gird-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           
           {products.map((product) => (
-            <a href={`/details/${product.id}`}>
+            <Link to={`/details/${product.id}`} key={product.id}>
               <div
-                key={product.id}
+                
                 className="bg-white border border-gray-300 shadow-md shadow-gray-400 rounded-lg flex gap-2 p-4 hover:scale-105 transition-transform xs:flex-col sm:flex-col lg:flex-col 2xs:flex-col"
               >
             <img
@@ -46,7 +47,7 @@ const AllProducts = ({ products }) => {
             <p className="mt-3 text-lg text-gray-400 pr-10 xs:hidden sm:hidden lg:hidden 2xs:hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero reprehenderit illo, quam, </p>
             <a href="#" className="text-blue-500 text-lg font-semibold mt-2.5">View details</a>
             </div>
-          </div></a>
+          </div></Link>
           ))}
         </div>
       )}
