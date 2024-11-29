@@ -1,5 +1,6 @@
 import React from 'react'
 import Avatar from "../assets/images/mainbg/avatar.png"
+import { Link } from 'react-router-dom'
 
 function Home() {
     
@@ -9,15 +10,15 @@ function Home() {
       <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0  mt-6 rounded-md px-5 py-3 bg-white   xs:mt-0 xs:p-0 xs:bg-none 2xs:mt-0 2xs:p-0 border border-gray-400 shadow-md shadow-gray-500">
             <div className="row flex  items-center justify-between gap-2">
                 <div className="col-3 flex flex-col space-y-[1px] sm:hidden xs:hidden 2xs:hidden">
-                    <a href="#" className="bg-blue-100 font-semibold pr-32 md:pr-10 sm:pr-10 pl-3 py-2 rounded-lg">Automobiles</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Clothes and wear</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Home interiors</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Computer and tech</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Tools, equipments</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Sports and outdoor</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Animal and pets</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Machinery tools</a>
-                    <a href="#" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">More category</a>
+                    <Link to="/products" className="bg-blue-100 font-semibold pr-32 md:pr-10 sm:pr-10 pl-3 py-2 rounded-lg">Automobiles</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Clothes and wear</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Home interiors</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Computer and tech</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Tools, equipments</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Sports and outdoor</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Animal and pets</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Machinery tools</Link>
+                    <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">More category</Link>
                 </div>
                 <div className="col-5 mx-2 xs:mx-0 sm:mx-0 2xs:mx-0 xs:h-72 xs:w-full xs:max-w-auto  2xs:h-60 2xs:w-full bg-cover bg-center  w-[665px] h-[360px]" style={{background:'url(/src/assets/images/mainbg/bgmain.png)', backgroundRepeat:"no-repeat"}}>
                     <div className='ml-10 mt-10'>
@@ -78,7 +79,7 @@ function Home() {
                     
                 </div>
                 <div className="flex 2xs:flex-wrap 2xs:mx-2 2xs:mt-4 2xs:gap-2 xs:pb-5 2xs:pb-5  xs:flex-wrap xs:mx- xs:mt-4 xs:mx-4 xs:gap-2 sm:flex sm:flex-row items-center justify-center">
-                    <a href="/products">
+                    <Link to="/products">
                     <div className="col-lg-2 h-[240px] border xs:rounded-md xs:border 2xs:rounded-md 2xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/smartWatch.png" alt="" className="w-36"  />
@@ -86,39 +87,39 @@ function Home() {
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
                     </div>
-                    </a>
-                    <a href="/products">
+                    </Link>
+                    <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/laptop.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">Laptops</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-15%</p>
                         </div>
-                    </div></a>
-                    <a href="/products">
+                    </div></Link>
+                    <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/goproCamera.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">GoPro Cameras</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-40%</p>
                         </div>
-                    </div></a>
-                    <a href="/products">
+                    </div></Link>
+                    <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md xs:border  p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/headphones.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">Headphones</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
-                    </div></a>
-                    <a href="/products">
+                    </div></Link>
+                    <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md xs:border p-5 border-gray-400 md:hidden xs:hidden 2xs:hidden hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
                             <img src="/src/assets/images/section2/canonCameras.png" alt="" className="w-36"  />
                             <h1 className="font-semibold">Canon Cameras</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
-                    </div></a>
+                    </div></Link>
                 </div>
                 
             </div>
@@ -130,7 +131,7 @@ function Home() {
                 <div className="col1  p-5 h-[260px] md:text-center xs:hidden sm:hidden 2xs:hidden md:hidden lg:hidden  w-[513px]" style={{background:'url("/src/assets/images/section3/bg1.png")', backgroundRepeat: "no-repeat" ,}}>
                     <div >
                         <h1 className=" font-bold text-xl mb-6">Home and<br />outdoor</h1>
-                        <a href="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</a>
+                        <Link to="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</Link>
                     </div>
                 </div>
                 <div className="col2  flex flex-wrap 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5 justify-center">
@@ -207,7 +208,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <a href="/products" className="p-5 font-bold  bg-white text-blue-600 text-xl   xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</a>
+                <Link to="/products" className="p-5 font-bold  bg-white text-blue-600 text-xl   xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</Link>
             </div>
         </section>
 
@@ -218,7 +219,7 @@ function Home() {
                 style={{background:'url("/src/assets/images/section4/bg2.png")', backgroundRepeat:"no-repeat"}} >
                     <div >
                         <h1 className=" font-bold text-xl mb-6">Consumer<br/>electronics and <br/> gadgets </h1>
-                        <a href="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</a>
+                        <Link to="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</Link>
                     </div>
                 </div>
                 <div className="col2  flex flex-wrap justify-center 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5">
@@ -295,7 +296,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <a href="/products" className="p-5 font-bold  bg-white text-blue-600 text-xl   xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</a>
+                <Link to="/products" className="p-5 font-bold  bg-white text-blue-600 text-xl   xl:hidden 2xl:hidden 3xl:hidden cursor-pointer">Source now &#8594;</Link>
             </div>
         </section>
 

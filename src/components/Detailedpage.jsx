@@ -19,7 +19,7 @@ const Detailedpage = () => {
     };
     return (
     <div className='mx-20 2xs:mx-2 xs:mx-2'>
-      <p className='text-gray-500 py-3'>Home <span className='px-1'>&#62;</span> Clothings <span className='px-1'>&#62;</span> Men's wear <span className='px-1'>&#62;</span> Summer clothing</p>
+      <p className='text-gray-500 py-3'>Home <span className='px-1'>&#62;</span> Products <span className='px-1'>&#62;</span> {product.category} <span className='px-1'>&#62;</span> {product.name}</p>
       <div className='flex bg-white px-4 pt-4 pb-8 justify-evenly gap-3 flex-wrap border border-gray-300 rounded-md shadow-md shadow-gray-400'>
         <div>
           <div className='p-2 border border-gray-300 bg-white rounded-md shadow-md shadow-gray-200 hover:scale-150'><img src={product.image} alt={product.name} className='w-[380px] '/></div>
