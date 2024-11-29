@@ -40,8 +40,8 @@ function Header({ onSearchChange }) {
     }
   };
   const handleSearchKeyDown = (e) => {
-    if (e.key === 'Enter') {
-      handleSearchButtonClick(); // Trigger the search function on Enter
+    if (e.key === 'Enter' || e.code === 'Enter') {
+      handleSearchButtonClick();
     }
   };
 
