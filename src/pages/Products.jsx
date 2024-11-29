@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import Sidebar from '../components/SideBar';
+import Sidebar from '../components/Sidebar';
 import AllProducts from '../components/AllProducts';
 import PaginationBar from '../components/PaginationBar';
 import { products } from '../components/products'; // Adjust the import path if needed
