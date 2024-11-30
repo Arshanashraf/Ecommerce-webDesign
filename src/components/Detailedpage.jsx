@@ -116,14 +116,14 @@ const Detailedpage = () => {
       </div>
       
 
-      <div className='flex gap-4 mt-6 flex-wrap'>
-        <div className='bg-white border border-gray-300 rounded-md shadow-md shadow-gray-400'>
+      <div className='flex gap-4 mt-6 flex-wrap '>
+        <div className='bg-white border border-gray-300 rounded-md shadow-md shadow-gray-400 '>
           {/* Tab Headers */}
           <div className="flex border-b mb-4 px-4">
             {tabs.map((tab) => (
               <button
                 key={tab}
-                className={`px-4 py-2 ${
+                className={`px-4 py-2 2xs:px-0.5 ${
                   activeTab === tab ? 'border-b-2 border-blue-500 font-semibold' : 'text-gray-500'
                 }`}
                 onClick={() => handleTabClick(tab)}

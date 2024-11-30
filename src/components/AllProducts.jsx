@@ -24,7 +24,7 @@ const AllProducts = ({ products }) => {
       {products.length === 0 ? (
         <div className="text-center text-gray-600">No products found.</div>
       ) : (
-        <div className="grid grid-cols-1 xs:gird-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <div className="grid grid-cols-1 xs:gird-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           
           {products.map((product) => (
               <div
@@ -34,7 +34,7 @@ const AllProducts = ({ products }) => {
             <img
               src={product.image}
               alt={product.name}
-              className="w-[210px] h-[210px]  object-cover rounded"
+              className="w-[210px] h-[210px]   object-cover rounded"
             />
             <div>
             <div className="flex justify-between w-full"><h3 className="text-lg font-semibold mt-2 ">{product.name}</h3> <a href=""><i class="fa-regular fa-heart text-xl text-blue-500 font-semi-bold border border-gray-300 rounded-md px-2 py-1.5"></i></a></div>
