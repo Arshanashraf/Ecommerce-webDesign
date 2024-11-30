@@ -207,7 +207,7 @@ const Detailedpage = () => {
               <div><h1 className='leading-5'>Apple Watch series<br /> space gray</h1>
               <p className='text-gray-400 text-sm mt-1 '>$7.00 - $99.50</p></div>
             </div>
-            <div className='flex  gap-2'>
+            <div className='flex  gap-2 2xs:hidden'>
               <div className='px-2 py-1 h-[70px]  w-[70px]  border border-gray-300 rounded-md'><img src={product.image} alt="" className='w-[53px] h-[60px]'/></div>
               <div><h1 className='leading-5'>Apple Watch series<br /> space gray</h1>
               <p className='text-gray-400 text-sm mt-1 '>$7.00 - $99.50</p></div>
@@ -218,9 +218,9 @@ const Detailedpage = () => {
 
       <div className='bg-white p-4 shadow-md shadow-gray-400 border border-gray-300 rounded-md mt-4'>
         <h1 className='text-xl font-bold pl-2 pb-3'>Related Products</h1>
-        <div className='flex justify-center flex-wrap gap-5'>
+        <div className='flex justify-center flex-wrap gap-5 2xs:gap-2'>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
-            <div className='w-[172px] bg-white px-5 rounded-t-md'>
+            <div className='w-[172px] 2xs:w-[120px] bg-white px-5 rounded-t-md'>
               <img src={Phone3} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
@@ -229,7 +229,7 @@ const Detailedpage = () => {
             </div>
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
-            <div className='w-[172px] bg-white px-5 rounded-t-md'>
+            <div className='w-[172px] 2xs:w-[120px] bg-white px-5 rounded-t-md'>
               <img src={Camera} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
@@ -238,7 +238,7 @@ const Detailedpage = () => {
             </div>
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
-            <div className='w-[172px] bg-white px-5 rounded-t-md'>
+            <div className='w-[172px] 2xs:w-[120px] bg-white px-5 rounded-t-md'>
               <img src={Headphones} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
@@ -247,7 +247,7 @@ const Detailedpage = () => {
             </div>
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
-            <div className='w-[172px] bg-white px-5 rounded-t-md'>
+            <div className='w-[172px] 2xs:w-[120px] bg-white px-5 rounded-t-md'>
               <img src={Watch} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
@@ -256,7 +256,7 @@ const Detailedpage = () => {
             </div>
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
-            <div className='w-[172px] bg-white px-5 rounded-t-md'>
+            <div className='w-[172px] 2xs:w-[120px] bg-white px-5 rounded-t-md'>
               <img src={Laptop} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
@@ -265,7 +265,7 @@ const Detailedpage = () => {
             </div>
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
-            <div className='w-[172px] bg-white px-5 rounded-t-md'>
+            <div className='w-[172px] 2xs:w-[120px] bg-white px-5 rounded-t-md'>
               <img src={Phone} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
