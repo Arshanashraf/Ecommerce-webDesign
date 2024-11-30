@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 # E-Commerce Web Application
-===============================
 A fully responsive and dynamic e-commerce web application built with **React**, **Redux**, and **React Router**. This project features advanced filtering and search functionalities, providing users with an intuitive and efficient shopping experience.
 ---
 # **Website**: [https://arshanecommercedesign.netlify.app/]
