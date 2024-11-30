@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Grid1 from "../assets/images/Icon/grid.png"
+import Bars from "../assets/images/Icon/bars.png"
 const AllProducts = ({ products }) => {
   return (
     <main className="flex-1">
@@ -13,10 +15,10 @@ const AllProducts = ({ products }) => {
             </select>
           </div>
           <div className="flex"><a href="" className="p-2 -mt-1.5  border border-gray-300 rounded-l-md">
-            <img src="/src/assets/images/Icon/grid.png" alt="" />
+            <img src={Grid1} alt="" />
           </a>
           <a href="" className="p-2 -mt-1.5  border border-gray-300 rounded-r-md">
-          <img src="/src/assets/images/Icon/bars.png" alt="" />
+          <img src={Bars} alt="" />
           </a></div>
         </div>
 
