@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from '../../assets/images/logo/logo.png';
 
+import Usa from '../../assets/images/flags/usa.png'
+
 function Footer() {
   return (
     <footer className="bg-white ">
@@ -75,7 +77,7 @@ function Footer() {
                 <div className="flex   justify-between">
                     <h1 className="text-gray-500">&copy; 2024 Ecommerce</h1>
                     <div className="flex gap-1  text-gray-500 ">
-                        <img src="/src/assets/images/flags/usa.png" className="w-5 h-4 mt-1.5 " alt=""/>
+                        <img src={Usa} className="w-5 h-4 mt-1.5 " alt=""/>
                         <div>
                         <select className='bg-gray-300 text-'>
                             <option >English</option>

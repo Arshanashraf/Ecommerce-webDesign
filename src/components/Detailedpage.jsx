@@ -265,12 +265,12 @@ const Detailedpage = () => {
       </div>
 
       <div className=' mt-4 mb-14 shadow-md shadow-blue-900 bg-blue-700 rounded-md' >
-        <div className='w-full flex justify-between' style={{background: "url('/src/assets/images/details/bgdetails2.png')", backgroundRepeat: "no-repeat"}}>
-          <div className='px-6 py-6'>
+        <div className='w-full flex justify-between items-center flex-wrap px-6 py-6 ' style={{background: "url('/src/assets/images/details/bgdetails2.png')", backgroundRepeat: "no-repeat"}}>
+          <div >
             <h1 className='text-2xl text-white font-bold'>Super discount on more than 100 USD</h1>
             <p className='pt-1 pb-3 text-[16px] text-[#FFFFFF]'>Have you ever finally just write dummy info</p>
           </div>
-          <div className='mr-14 my-10'>
+          <div >
           <button className='bg-[#FF9017] text-white px-3 py-2 rounded-md shadow-sm shadow-orange-600'>Shop now</button>
         </div>
         </div>
