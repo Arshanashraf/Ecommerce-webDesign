@@ -26,7 +26,8 @@ const Detailedpage = () => {
     return (
     <div className='mx-20 2xs:mx-2 xs:mx-2'>
       <p className='text-gray-500 py-3'>Home <span className='px-1'>&#62;</span> Products <span className='px-1'>&#62;</span> {product.category} <span className='px-1'>&#62;</span> {product.name}</p>
-      <div className='flex bg-white px-4 pt-4 pb-8 justify-evenly gap-3 flex-wrap border border-gray-300 rounded-md shadow-md shadow-gray-400'>
+      <div className='bg-white px-4 pt-4 pb-8 border border-gray-300 rounded-md shadow-md shadow-gray-400'>
+      <div className='flex   justify-evenly gap-3 flex-wrap '>
         <div>
           <div className='p-2 border border-gray-300 bg-white rounded-md shadow-md shadow-gray-200 hover:scale-150'><img src={product.image} alt={product.name} className='w-[380px] '/></div>
           <div>
@@ -44,7 +45,7 @@ const Detailedpage = () => {
           <p className='text-green-500 font-semibold text-lg'> &#10003; In stock</p>
           <h1 className='text-2xl font-bold'>{product.name}</h1>
           <div>
-            <div className='flex py-3'>
+            <div className='flex flex-wrap py-3'>
               <span className='text-xl text-yellow-500'>&#9733;&#9733;&#9733;&#9733;</span>
               <span className='text-xl text-gray-400'>&#9733;</span><p className='text-lg font-semibold pl-1 pr-1  text-yellow-500'>{product.rating}</p>
               <p className='flex gap-2 font-semibold text-gray-400 text-lg'>
@@ -105,7 +106,15 @@ const Detailedpage = () => {
             </a></div>
           
         </div>
+        
       </div>
+      <div className="flex flex-wrap gap-2 mt-4 justify-center">
+              
+              <button className="text-white bg-blue-500 text-lg px-3 py-1.5 font-semibold rounded-md border-2 border-blue-500 hover:bg-white hover:text-blue-500">Add to cart <i className="fa-solid fa-shopping-cart "></i></button>
+              <a href='#' className="text-blue-500 text-lg px-6 py-1.5 font-semibold border-2 border-blue-500 rounded-md hover:bg-blue-500 hover:text-white">Buy now <i className="fa-solid fa-bag-shopping "></i></a>
+            </div>
+      </div>
+      
 
       <div className='flex gap-4 mt-6 flex-wrap'>
         <div className='bg-white border border-gray-300 rounded-md shadow-md shadow-gray-400'>
