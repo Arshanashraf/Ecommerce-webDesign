@@ -14,10 +14,10 @@ const AllProducts = ({ products }) => {
               <option value="">Featured</option>
             </select>
           </div>
-          <div className="flex"><a href="" className="p-2 -mt-1.5  border border-gray-300 rounded-l-md">
+          <div className="flex"><a href="" className="p-2 -mt-1.5 hover:bg-gray-300 border border-gray-300 rounded-l-md">
             <img src={Grid1} alt="" />
           </a>
-          <a href="" className="p-2 -mt-1.5  border border-gray-300 rounded-r-md">
+          <a href="" className="p-2 -mt-1.5 hover:bg-gray-300  border border-gray-300 rounded-r-md">
           <img src={Bars} alt="" />
           </a></div>
         </div>
