@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import Logo from '../../assets/images/logo/logo.png';
 import { Link, useNavigate } from 'react-router-dom';
-import { products } from '../products.js';
 
 function Header({ onSearchChange }) {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -55,23 +54,23 @@ function Header({ onSearchChange }) {
             </Link>
           </div>
 
-          <div className="flex flex-1 items-center mx-4 md:mx-10 2xs:hidden">
+          <div className="flex flex-1 items-center mx-4 md:mx-10 2xs:hidden ">
             <input
               type="text"
               placeholder="Search"
               value={searchQuery}
               onChange={handleSearchChange}
               onKeyDown={handleSearchKeyDown}
-              className="flex-1 w-auto border border-blue-400 rounded-l-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="flex-1 w-auto border border-blue-400 rounded-l-md px-4 py-2 focus:outline-none "
             />
-            <select className="border-t border-b border-y-8 border-blue-400 px-2 py-2 focus:outline-none xs:hidden 2xs:hidden">
+            <select className="border-t border-b border-y-8 h-[42px] border-blue-400 px-2 py-2 focus:outline-none xs:hidden 2xs:hidden">
               <option>All category</option>
               <option>Electronics</option>
               <option>Fashion</option>
             </select>
             <button
               onClick={handleSearchButtonClick}
-              className="bg-blue-500 text-white px-4 py-2 rounded-r-md"
+              className="bg-blue-500 text-white h-[42px] px-4 py-2 rounded-r-md"
             >
               Search
             </button>
@@ -105,7 +104,7 @@ function Header({ onSearchChange }) {
             value={searchQuery}
             onChange={handleSearchChange}
             onKeyDown={handleSearchKeyDown}
-            className=" w-full border border-blue-400 rounded-l-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className=" w-full border border-blue-400 rounded-l-md px-4 py-2 focus:outline-none "
           />
           
           <button

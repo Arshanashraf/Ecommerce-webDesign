@@ -1,7 +1,50 @@
 import React from 'react'
 import Avatar from "../assets/images/mainbg/avatar.png"
 import { Link } from 'react-router-dom'
-
+///section2//////////////////
+import Watch from '../assets/images/section2/smartWatch.png'
+import Camera from '../assets/images/section2/goproCamera.png'
+import Headphones from '../assets/images/section2/headphones.png'
+import Phone from '../assets/images/section2/phone.png'
+import Laptop from '../assets/images/section2/laptop.png'
+////////section3////////////////////
+import Chair from '../assets/images/section3/softChairs.png'
+import Appliance from '../assets/images/section3/appliancees.png'
+import Bed from '../assets/images/section3/bed.png'
+import Blender from '../assets/images/section3/blender.png'
+import Coffee from '../assets/images/section3/coffee.png'
+import Kitchen from '../assets/images/section3/kitchen.png'
+import Lamp from '../assets/images/section3/lamp.png'
+import Pot from '../assets/images/section3/pot.png'
+////////section4////////////////////
+import Headphone2 from '../assets/images/section4/headphone2.png'
+import Kettle from '../assets/images/section4/kettle.png'
+import Phone2 from '../assets/images/section4/phone2.png'
+import Phone3 from '../assets/images/section4/phone3.png'
+////////section6////////////////////
+import Bag from '../assets/images/section6/bag.png'
+import Shirt from '../assets/images/section6/shirt.png'
+import Shirt2 from '../assets/images/section6/shirt2.png'
+import Shirt3 from '../assets/images/section6/shirt3.png'
+import Short from '../assets/images/section6/short.png'
+import Suit from '../assets/images/section6/suit.png'
+import Wallet from '../assets/images/section6/wallet.png'
+////////section7////////////////////
+import Img1 from '../assets/images/section7/img1.png'
+import  Img2 from '../assets/images/section7/img2.png'
+import Img3 from '../assets/images/section7/img3.png'
+import Img4 from '../assets/images/section7/img4.png'
+////////flags////////////////////
+import Aus from '../assets/images/flags/australia.jpeg'
+import  Bri from '../assets/images/flags/britain.jpeg'
+import China from '../assets/images/flags/china.jpeg'
+import Den from '../assets/images/flags/denmark.jpeg'
+import Fra from '../assets/images/flags/france.jpeg'
+import  Ger from '../assets/images/flags/ger.jpeg'
+import Italy from '../assets/images/flags/itzly.jpeg'
+import Russia from '../assets/images/flags/russia.jpeg'
+import Uae from '../assets/images/flags/uae.webp'
+import Usa from '../assets/images/flags/usa.png'
 function Home() {
     
     
@@ -20,7 +63,7 @@ function Home() {
                     <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">Machinery tools</Link>
                     <Link to="/products" className="   hover:bg-blue-100 text-gray-700 pl-3 py-2 rounded-lg">More category</Link>
                 </div>
-                <div className="col-5 mx-2 xs:mx-0 sm:mx-0 2xs:mx-0 xs:h-72 xs:w-full xs:max-w-auto  2xs:h-60 2xs:w-full bg-cover bg-center  w-[665px] h-[360px]" style={{background:'url(/src/assets/images/mainbg/bgmain.png)', backgroundRepeat:"no-repeat"}}>
+                <div className="col-5 mx-2 xs:mx-0 sm:mx-0 2xs:mx-0 xs:h-72 xs:w-full xs:max-w-auto  2xs:h-60 2xs:w-full bg-cover bg-center  w-[665px] h-[360px]" style={{background:'url(/bgImg/bgmain.png)', backgroundRepeat:"no-repeat"}}>
                     <div className='ml-10 mt-10'>
                     <h1 className='text-3xl font-medium'>Latest trending</h1>
                     <h2 className='text-3xl font-bold mb-8'>Electronic items</h2>
@@ -82,7 +125,7 @@ function Home() {
                     <Link to="/products">
                     <div className="col-lg-2 h-[240px] border xs:rounded-md xs:border 2xs:rounded-md 2xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
-                            <img src="/src/assets/images/section2/smartWatch.png" alt="" className="w-36"  />
+                            <img src={Watch} alt="" className="w-36"  />
                             <h1 className="font-semibold ">Smart watches</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
@@ -91,7 +134,7 @@ function Home() {
                     <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
-                            <img src="/src/assets/images/section2/laptop.png" alt="" className="w-36"  />
+                            <img src={Laptop} alt="" className="w-36"  />
                             <h1 className="font-semibold">Laptops</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-15%</p>
                         </div>
@@ -99,15 +142,15 @@ function Home() {
                     <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md  xs:border p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
-                            <img src="/src/assets/images/section2/goproCamera.png" alt="" className="w-36"  />
-                            <h1 className="font-semibold">GoPro Cameras</h1>
+                            <img src={Camera} alt="" className="w-36"  />
+                            <h1 className="font-semibold">Canon Cameras</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-40%</p>
                         </div>
                     </div></Link>
                     <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md xs:border  p-5 border-gray-400 hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
-                            <img src="/src/assets/images/section2/headphones.png" alt="" className="w-36"  />
+                            <img src={Headphones} alt="" className="w-36"  />
                             <h1 className="font-semibold">Headphones</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
@@ -115,8 +158,8 @@ function Home() {
                     <Link to="/products">
                     <div className="col-lg-2 h-[240px] border 2xs:rounded-md 2xs:border xs:rounded-md xs:border p-5 border-gray-400 md:hidden xs:hidden 2xs:hidden hover:scale-105 bg-white transition-transform">
                         <div className=" flex flex-col items-center text-center">
-                            <img src="/src/assets/images/section2/canonCameras.png" alt="" className="w-36"  />
-                            <h1 className="font-semibold">Canon Cameras</h1>
+                            <img src={Phone} alt="" className="w-36"  />
+                            <h1 className="font-semibold">Smart Phone</h1>
                             <p className="bg-pink-200 px-3 text-red-600 font-semibold text-sm py-1 rounded-2xl">-25%</p>
                         </div>
                     </div></Link>
@@ -128,83 +171,83 @@ function Home() {
         <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0 mt-6 rounded-md md:border md:border-gray-400 md:bg-white lg:bg-white 2xs:border 2xs:border-gray-400 2xs:bg-white  xs:border xs:border-gray-400 xs:bg-white  sm:border sm:border-gray-400 sm:bg-white xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none  2xs:mt-0 2xs:p-0 2xs:bg-none shadow-md shadow-gray-500">
             <div className=" flex md:flex-col xs:flex-col lg:flex-col  sm:flex-col 2xs:flex-col ">
                 <div className="p-5 font-bold  bg-white  text-xl  xl:hidden 2xl:hidden 3xl:hidden">Home and outdoor</div>
-                <div className="col1  p-5 h-[260px] md:text-center xs:hidden sm:hidden 2xs:hidden md:hidden lg:hidden  w-[513px]" style={{background:'url("/src/assets/images/section3/bg1.png")', backgroundRepeat: "no-repeat" ,}}>
+                <div className="col1  p-5 h-[260px] md:text-center xs:hidden sm:hidden 2xs:hidden md:hidden lg:hidden  w-[280px]" style={{background:'url("/bgImg/bg1.png")', backgroundRepeat: "no-repeat" ,}}>
                     <div >
                         <h1 className=" font-bold text-xl mb-6">Home and<br />outdoor</h1>
                         <Link to="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</Link>
                     </div>
                 </div>
-                <div className="col2  flex flex-wrap 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5 justify-center">
-                    <div className="col1 flex px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto border-gray-400  hover:scale-110 transition-transform bg-white ">
+                <div className="col2  grid grid-cols-4 lg:grid-cols-3 sm:grid-cols-3 2xs:grid-cols-1 xs:grid-cols-2  md:grid-cols-3 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5 lg:gap-2 justify-items-center lg:mx-28">
+                    <div className="col1 flex px-5 py-5 border w-[228px]  xl:max-w-auto border-gray-400  hover:scale-110 transition-transform bg-white ">
                         <div>
                             <h1 className="font-semibold">Soft Chairs</h1>
                             <p className="text-sm text-gray-400 ">from <br />USD 19</p>
                         </div>
                         <div className="  pt-2 pl-5">
-                            <img src="/src/assets/images/section3/softChairs.png" alt="" className="w-20 " />
+                            <img src={Chair} alt="" className="w-20 " />
                         </div>
                     </div>
-                    <div className="col2 flex   px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white ">
+                    <div className="col2 flex   px-5 py-5 border w-[228px]  xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white ">
                         <div>
                             <h1 className="font-semibold">Sofa and chairs</h1>
                             <p className="text-sm text-gray-400 ">from <br />USD 89</p>
                         </div>
                         <div className="  pt-2 ">
-                            <img src="/src/assets/images/section3/lamp.png" alt="" className="w-20 " />
+                            <img src={Lamp} alt="" className="w-20 " />
                         </div>
                     </div>
-                    <div className="col3 flex  px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white ">
+                    <div className="col3 flex  px-5 py-5 border w-[228px]  xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white ">
                         <div>
                             <h1 className="font-semibold">Kitchen Dishes</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 10</p>
                         </div>
                         <div className="  pt-2">
-                            <img src="/src/assets/images/section3/bed.png" alt="" className="w-20"/>  
+                            <img src={Bed} alt="" className="w-20"/>  
                         </div>
                     </div>
-                    <div className="col4 flex  px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white  ">
+                    <div className="col4 flex  px-5 py-5 border w-[228px]  xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white  ">
                         <div>
                             <h1 className="font-semibold">Smart Watches</h1>
                             <p className="text-sm text-gray-400 ">from <br />USD 90</p>
                         </div>
                         <div className="  pt-2 ">
-                            <img src="/src/assets/images/section3/pot.png" alt="" className="w-20 "/>
+                            <img src={Pot} alt="" className="w-20 "/>
                         </div>
                     </div>
-                    <div className="col5 flex  px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden">
+                    <div className="col5 flex  px-5 py-5 border w-[228px]  xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden">
                         <div>
                             <h1 className="font-semibold">Kitchen mixer</h1>
                             <p className="text-sm text-gray-400 ">from <br />USD 35</p>
                         </div>
                         <div className="  pt-2 ">
-                            <img src="/src/assets/images/section3/kitchen.png" alt="" className="w-20  "/>
+                            <img src={Kitchen} alt="" className="w-20  "/>
                         </div>
                     </div>
-                    <div className="col6 flex  px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto space-x- border-gray-400 4 bg-white hover:scale-110 transition-transform xs:hidden 2xs:hidden">
+                    <div className="col6 flex  px-5 py-5 border w-[228px]  xl:max-w-auto space-x- border-gray-400 4 bg-white hover:scale-110 transition-transform xs:hidden 2xs:hidden">
                         <div className="pr-1">
                             <h1 className="font-semibold">Blenders</h1>
                             <p className="text-sm text-gray-400 ">from <br />USD 340</p>
                         </div>
                         <div className="  pt-2  pl-10">
-                            <img src="/src/assets/images/section3/blender.png" alt="" className="w-20  "/>
+                            <img src={Blender} alt="" className="w-20  "/>
                         </div>
                     </div>
-                    <div className="col7 flex  px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden md:hidden  sm:hidden lg:hidden">
+                    <div className="col7 flex  px-5 py-5 border w-[228px]  xl:max-w-auto space-x- border-gray-400  hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden md:hidden  sm:hidden lg:hidden">
                         <div>
                             <h1 className="font-semibold">Home appliances</h1>
                             <p className="text-sm text-gray-400 ">from <br />USD 19</p>
                         </div>
                         <div className="  pt-2  ">
-                            <img src="/src/assets/images/section3/appliancees.png" alt="" className="w-20  "/>
+                            <img src={Appliance} alt="" className="w-20  "/>
                         </div>
                     </div>
-                    <div className="col8 flex  px-5 py-5 border w-[228px] xl:w-[180px] xl:max-w-auto space-x- border-gray-400  bg-white  lg:hidden  md:hidden xs:hidden 2xs:hidden sm:hidden hover:scale-110 transition-transform">
+                    <div className="col8 flex  px-5 py-5 border w-[228px]  xl:max-w-auto space-x- border-gray-400  bg-white  lg:hidden  md:hidden xs:hidden 2xs:hidden sm:hidden hover:scale-110 transition-transform">
                         <div>
                             <h1 className="font-semibold">Coffee Maker</h1>
                             <p className="text-sm text-gray-400 ">from <br />USD 240</p>
                         </div>
                         <div className="  pt-2 pl-2 ">
-                            <img src="/src/assets/images/section3/coffee.png" alt="" className="w-20 "/>
+                            <img src={Coffee} alt="" className="w-20 "/>
                         </div>
                     </div>
                 </div>
@@ -213,86 +256,86 @@ function Home() {
         </section>
 
         <section className="mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0 2xs:mx-0 mt-6 rounded-md md:border md:border-gray-400 md:bg-white lg:bg-white 2xs:border 2xs:border-gray-400 2xs:bg-white  xs:border xs:border-gray-400 xs:bg-white  sm:border sm:border-gray-400 sm:bg-white xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none  2xs:mt-0 2xs:p-0 2xs:bg-none shadow-md shadow-gray-500">
-            <div className="row flex md:flex-col xs:flex-col  sm:flex-col 2xs:flex-col justify-between items-center">
+            <div className="row flex md:flex-col xs:flex-col lg:flex-col  sm:flex-col 2xs:flex-col ">
                 <div className="p-5 font-bold  bg-white  text-xl   xl:hidden 2xl:hidden 3xl:hidden">Consumer electronics and gadgets</div>
-                <div className="col1 bg-cover p-5  md:text-center xs:hidden lg:hidden sm:hidden 2xs:hidden md:hidden w-[513px] h-[260px]"
-                style={{background:'url("/src/assets/images/section4/bg2.png")', backgroundRepeat:"no-repeat"}} >
+                <div className="col1 bg-cover p-5  md:text-center xs:hidden lg:hidden sm:hidden 2xs:hidden md:hidden w-[280px] h-[260px]"
+                style={{background:'url("/bgImg/bg2.png")', backgroundRepeat:"no-repeat"}} >
                     <div >
                         <h1 className=" font-bold text-xl mb-6">Consumer<br/>electronics and <br/> gadgets </h1>
                         <Link to="/products" className="px-4 py-2 bg-white rounded-md font-semibold">Source now</Link>
                     </div>
                 </div>
-                <div className="col2  flex flex-wrap justify-center 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5">
-                    <div className="col1 flex px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400 hover:scale-110 transition-transform bg-white ">
+                <div className="col2  grid grid-cols-4 lg:grid-cols-3 sm:grid-cols-3 2xs:grid-cols-1 xs:grid-cols-2  md:grid-cols-3 2xs:mx-20 2xs:gap-2 xs:mx-5 xs:gap-2 sm:mx-5 sm:gap-2 md:gap-4 md:mx-5 lg:gap-2 justify-items-center lg:mx-28">
+                    <div className="col1 flex px-5 py-5 border w-[228px]   space-x- border-gray-400 hover:scale-110 transition-transform bg-white ">
                         <div>
                             <h1 className="font-semibold">Smart Watches</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 19</p>
                         </div>
                         <div className="  pt-2 ">
-                            <img src="/src/assets/images/section4/smartWatch.png" alt="" className="w-20 "/>
+                            <img src={Watch} alt="" className="w-20 "/>
                         </div>
                     </div>
-                    <div className="col2 flex   px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400  hover:scale-110 transition-transform bg-white ">
-                        <div>
+                    <div className="col2 flex   px-5 py-5 border w-[228px]   space-x- border-gray-400  hover:scale-110 transition-transform bg-white ">
+                        <div className='mr-10'>
                             <h1 className="font-semibold">Camera</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 89</p>
                         </div>
                         <div className="  pt-2 ">
-                            <img src="/src/assets/images/section4/goproCamera.png" alt="" className="w-20 "/>
+                            <img src={Camera} alt="" className="w-20 "/>
                         </div>
                     </div>
-                    <div className="col3 flex  px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400 hover:scale-110 transition-transform bg-white ">
+                    <div className="col3 flex  px-5 py-5 border w-[228px]   space-x- border-gray-400 hover:scale-110 transition-transform bg-white ">
                         <div>
                             <h1 className="font-semibold">Headphones</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 10</p>
                         </div>
                         <div className="  pt-2">
-                            <img src="/src/assets/images/section4/headphone2.png" alt="" className="w-20"/>
+                            <img src={Headphone2} alt="" className="w-20"/>
                         </div>
                     </div>
-                    <div className="col4 flex  px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400 hover:scale-110 transition-transform bg-white  ">
+                    <div className="col4 flex  px-5 py-5 border w-[228px]   space-x- border-gray-400 hover:scale-110 transition-transform bg-white  ">
                         <div>
                             <h1 className="font-semibold">Smart Watches</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 90</p>
                         </div>
                         <div className="  pt-2 ">
-                            <img src="/src/assets/images/section4/kettle.png" alt="" className="w-20 "/>
+                            <img src={Kettle} alt="" className="w-20 "/>
                         </div>
                     </div>
-                    <div className="col5 flex  px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400 hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden">
-                        <div>
+                    <div className="col5 flex  px-5 py-5 border w-[228px]   space-x- border-gray-400 hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden">
+                        <div className='mr-5'> 
                             <h1 className="font-semibold">Gaming set</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 35</p>
                         </div>
                         <div className="  pt-2 ">
-                            <img src="/src/assets/images/section4/headphones.png" alt="" className="w-20  "/>
+                            <img src={Headphones} alt="" className="w-20  "/>
                         </div>
                     </div>
-                    <div className="col6 flex  px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400 bg-white hover:scale-110 transition-transform xs:hidden 2xs:hidden">
+                    <div className="col6 flex  px-5 py-5 border w-[228px]   space-x- border-gray-400 bg-white hover:scale-110 transition-transform xs:hidden 2xs:hidden">
                         <div className="pr-1">
                             <h1 className="font-semibold">Laptop & PCs</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 340</p>
                         </div>
                         <div className="  pt-2  ">
-                            <img src="/src/assets/images/section4/laptop.png" alt="" className="w-20  "/>
+                            <img src={Laptop} alt="" className="w-20  "/>
                         </div>
                     </div>
-                    <div className="col7 flex  px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400 hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden md:hidden  sm:hidden lg:hidden">
+                    <div className="col7 flex  px-5 py-5 border w-[228px]   space-x- border-gray-400 hover:scale-110 transition-transform bg-white xs:hidden 2xs:hidden md:hidden  sm:hidden lg:hidden">
                         <div>
                             <h1 className="font-semibold">Smart phones</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 19</p>
                         </div>
                         <div className="  pt-2  ">
-                            <img src="/src/assets/images/section4/phone2.png" alt="" className="w-20  "/>
+                            <img src={Phone2} alt="" className="w-20  "/>
                         </div>
                     </div>
-                    <div className="col8 flex  px-5 py-5 border w-[228px] xl:w-[180px]  space-x- border-gray-400 bg-white  lg:hidden  md:hidden xs:hidden 2xs:hidden sm:hidden hover:scale-110 transition-transform">
+                    <div className="col8 flex  px-5 py-5 border w-[228px]   space-x- border-gray-400 bg-white  lg:hidden  md:hidden xs:hidden 2xs:hidden sm:hidden hover:scale-110 transition-transform">
                         <div>
                             <h1 className="font-semibold">Electric kettle</h1>
                             <p className="text-sm text-gray-400 ">from <br/>USD 240</p>
                         </div>
                         <div className="  pt-2  ">
-                            <img src="/src/assets/images/section4/phone3.png" alt="" className="w-20 "/>
+                            <img src={Phone3} alt="" className="w-20 "/>
                         </div>
                     </div>
                 </div>
@@ -300,7 +343,7 @@ function Home() {
             </div>
         </section>
 
-        <section className="relative mt-6 rounded-md bg-cover  xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none 2xs:mx-0 2xs:mt-3 2xs:p-0 2xs:bg-none border border-gray-400 mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0" style={{background:'url(/src/assets/images/section5/bg3.png)'}}>
+        <section className="relative mt-6 rounded-md bg-cover  xs:mt-2 sm:mt-2 xs:p-0 xs:bg-none 2xs:mx-0 2xs:mt-3 2xs:p-0 2xs:bg-none border border-gray-400 mx-20 xl:mx-16 lg:mx-5 md:mx-10 sm:mx-5 xs:mx-0" style={{background:'url(/bgImg/bg3.png)'}}>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-800/100 via-blue-500/90 to-blue-400/70"></div>
             <div className="relative flex p-10 2xs:p-4 xs:p-4">
                 <div className="w-full pr-52 space-y-4 2xs:pr-0 xs:pr-20 sm:pr-10 md:pr-20 lg:pr-16">
@@ -337,70 +380,70 @@ function Home() {
             <div className="flex flex-wrap gap-5 mt-4 2xs:gap-2 justify-center">
                 <div className="bg-white shadow-md shadow-gray-400   px-3 py-2 rounded-md border border-gray-400 hover:animate-pulse">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/shirt.png" className="w-48 2xs:w-32" alt="" />
+                        <img src={Shirt} className="w-48 " alt="" />
                         <h1 className="font-bold pt-3 text-lg">10.30$</h1>
                         <p className="text-sm text-gray-500 w-40">T-shirts with multiple colors for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/shirt3.png" className="w-48 2xs:w-32" alt="" />
+                        <img src={Shirt3} className="w-48 " alt="" />
                         <h1 className="font-bold pt-3">12.50$</h1>
                         <p className="text-sm text-gray-500 w-40">Brown winter coat medium size</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/suit.png" className="w-48 2xs:w-32" alt="" />
+                        <img src={Suit} className="w-48 " alt="" />
                         <h1 className="font-bold pt-3">34.30$</h1>
                         <p className="text-sm text-gray-500 w-40">Blue suit for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/wallet.png" className="w-48 2xs:w-32" alt="" />
+                        <img src={Wallet} className="w-48 " alt="" />
                         <h1 className="font-bold pt-3">10.30$</h1>
                         <p className="text-sm text-gray-500 w-40">Blue wallet for men leather material</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/bag.png" className="w-48" alt="" />
+                        <img src={Bag} className="w-48" alt="" />
                         <h1 className="font-bold pt-3">99.0$</h1>
                         <p className="text-sm text-gray-500 w-40">Jeans bag for travel for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/short.png" className="w-48" alt="" />
+                        <img src={Short} className="w-48" alt="" />
                         <h1 className="font-bold pt-3">9.99$</h1>
                         <p className="text-sm text-gray-500 w-40">Jeans short for travel for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/headphone2.png" className="w-48" alt="" />
+                        <img src={Headphone2} className="w-48" alt="" />
                         <h1 className="font-bold pt-3">99.0$</h1>
                         <p className="text-sm text-gray-500 w-40">Headset for gaming with mic</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/shirt2.png" className="w-48" alt="" />
+                        <img src={Shirt2} className="w-48" alt="" />
                         <h1 className="font-bold pt-3">10.00$</h1>
                         <p className="text-sm text-gray-500 w-40">T-shirts with multiple colors for men</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/wallet.png" className="w-48" alt="" />
+                        <img src={Wallet} className="w-48" alt="" />
                         <h1 className="font-bold pt-3">34.00$</h1>
                         <p className="text-sm text-gray-500 w-40">Leather wallet</p>
                     </a>
                 </div>
                 <div className="bg-white shadow-md shadow-gray-400 hover:animate-pulse px-3 py-2 rounded-md border border-gray-400 xs:hidden 2xs:hidden">
                     <a href="/products">
-                        <img src="/src/assets/images/section6/kettle.png" className="w-48" alt="" />
+                        <img src={Kettle} className="w-48" alt="" />
                         <h1 className="font-bold pt-3">80.90$</h1>
                         <p className="text-sm text-gray-500 w-40">Kettle </p>
                     </a>
@@ -412,28 +455,28 @@ function Home() {
             <h1 className="text-2xl font-bold">Our extra services</h1>
             <div className="flex flex-wrap mt-4 gap-4 xs:gap-2 justify-evenly items-center sm:mx-0 xs:mx-14 2xs:mx-16 lg-mx-0 2xl:mx-0">
                 <div className="bg-white rounded-md shadow-md shadow-gray-400">
-                    <img src="/src/assets/images/section7/img1.png " className="w-64 h-28 rounded-t-md " alt="" />
+                    <img src={Img1} className="w-64 h-28 rounded-t-md " alt="" />
                     <div className="flex gap-14">
                         <h1 className="p-4">Source from <br/> industry Hubs</h1>
                         <a href="#" className="-mt-6"><i className="fa-solid fa-magnifying-glass bg-gray-300 rounded-full p-4 border border-white "></i></a>
                     </div>
                 </div> 
                 <div className="bg-white rounded-md shadow-md shadow-gray-400">
-                    <img src="/src/assets/images/section7/img2.png " className="w-64 h-28 rounded-t-md " alt="" />
+                    <img src={Img2}  className="w-64 h-28 rounded-t-md " alt="" />
                     <div className="flex gap-12">
                         <h1 className="p-4">Customize your <br/> products</h1>
                         <a href="#" className="-mt-6"><i className="fa-solid fa-box-archive bg-gray-300 rounded-full p-4 border border-white "></i></a>
                     </div>
                 </div>
                 <div className="bg-white rounded-md shadow-md shadow-gray-400">
-                    <img src="/src/assets/images/section7/img3.png " className="w-64 h-28 rounded-t-md " alt="" />
+                    <img src={Img3}  className="w-64 h-28 rounded-t-md " alt="" />
                     <div className="flex gap-1">
                         <h1 className="p-4">Fast, reliable shipping <br/> by ocean or air</h1>
                         <a href="#" className="-mt-6"><i className="fa-regular fa-paper-plane bg-gray-300 rounded-full p-4 border border-white "></i></a>
                     </div>
                 </div>
                 <div className="bg-white rounded-md shadow-md shadow-gray-400">
-                    <img src="/src/assets/images/section7/img4.png" className="w-64 h-28 rounded-t-md " alt="" />
+                    <img src={Img4} className="w-64 h-28 rounded-t-md " alt="" />
                     <div className="flex gap-4">
                         <h1 className="p-4">Product monitoring <br/> and inspection</h1>
                         <a href="#" className="-mt-6"><i className="fa-solid fa-shield-halved bg-gray-300 rounded-full p-4 border border-white "></i></a>
@@ -446,70 +489,70 @@ function Home() {
             <h1 className="text-2xl font-bold mb-5">Suppliers by region</h1>
             <div className="flex flex-wrap gap-x-16 gap-y-4 2xs:gap-2 xs:gap-2 justify-center ">
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/uae.webp" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Uae} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Arabic Emirates</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/australia.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Aus} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Australia</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/usa.png" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Usa} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">United States</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/russia.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Russia} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Russia</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/itzly.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Italy} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Italy</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/denmark.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Den} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Denmark    </h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex  w-44">
-                    <img src="/src/assets/images/flags/france.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Fra} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">france</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/ger.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Ger} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Germany</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/china.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={China} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">China</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>
                     </div>
                 </div>
                 <div className="flex w-44">
-                    <img src="/src/assets/images/flags/britain.jpeg" className="w-10 h-8 mt-2" alt="" />
+                    <img src={Bri} className="w-10 h-8 mt-2" alt="" />
                     <div className="pl-2">
                         <h1 className=" font-semibold">Great Britain</h1>
                         <p className="text-sm text-gray-500">Shopname.ae</p>

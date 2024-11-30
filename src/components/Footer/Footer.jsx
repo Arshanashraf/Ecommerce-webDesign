@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../../assets/images/logo/logo.png';
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
                 <div>
                     <div className="flex items-center space-x-4 -mt-1 md:mr-4 sm:mr-10 2xs:mr-10">
                         <a href="/" className="flex items-center text-blue-300 text-3xl font-bold">
-                          <img src="/src/assets/images/logo/logo.png" className="w-12 mr-1" alt=""/>Brand</a>
+                          <img src={Logo} className="w-12 mr-1" alt=""/>Brand</a>
                       </div>
                       <h1 className="mt-4">Best information about the company Lorem <br/>ipsum dolor  sit, amet consectetur adipisicing elit.</h1>
                       <div className="flex flex-wrap gap-5 mt-4 justify-evenly">
