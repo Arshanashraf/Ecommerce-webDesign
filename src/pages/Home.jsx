@@ -571,7 +571,7 @@ function Home() {
                         <input 
                           type="text" 
                           placeholder="Email" 
-                          class="pl-10 py-2 border border-gray-300 w-72 rounded-md"
+                          class="pl-10 py-2 border border-gray-300 w-72 2xs:w-48 rounded-md"
                         />
                         <button class="bg-blue-600 text-white py-2 px-4 rounded-md ml-1">Subscribe</button>
                       </div>
