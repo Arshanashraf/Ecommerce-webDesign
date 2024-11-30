@@ -1,6 +1,9 @@
 import React,{useState} from 'react'
 import { useParams } from 'react-router-dom';
 import { products } from './products';
+import Ger from '../assets/images/flags/ger.jpeg'
+import Check from '../assets/images/flags/check.png'
+import World from '../assets/images/flags/world.png'
 import Icon1 from '../assets/images/Icon/Vector.png'
 import Icon2 from '../assets/images/Icon/shopping_basket.png'
 import Watch from '../assets/images/section2/smartWatch.png'
@@ -92,9 +95,9 @@ const Detailedpage = () => {
               <p className='font-semibold text-lg'>Supplier <br />Guanjoi Trading LLC</p>
             </div>
             <div className='space-y-2 mt-3'>
-              <div className='flex'><div className='w-12'><img src="/src/assets/images/flags/ger.jpeg" alt="" className='w-6 h-4 mt-1'/></div><p className='text-gray-400'>Germany, Berlin</p></div>
-              <div className='flex'><div className='w-12'><img src="/src/assets/images/Icon/check.png" alt="" className=' h-5 w-5 mt-0.5 pl-0.5'/></div><p className='text-gray-400'>Verified Seller</p></div>
-              <div className='flex'><div className='w-12'><img src="/src/assets/images/Icon/world.png" alt="" className=' h-5 w-5 mt-0.5 pl-0.5'/></div><p className='text-gray-400'>Worldwide shipping</p></div>
+              <div className='flex'><div className='w-12'><img src={Ger} alt="" className='w-6 h-4 mt-1'/></div><p className='text-gray-400'>Germany, Berlin</p></div>
+              <div className='flex'><div className='w-12'><img src={Check} alt="" className=' h-5 w-5 mt-0.5 pl-0.5'/></div><p className='text-gray-400'>Verified Seller</p></div>
+              <div className='flex'><div className='w-12'><img src={World} alt="" className=' h-5 w-5 mt-0.5 pl-0.5'/></div><p className='text-gray-400'>Worldwide shipping</p></div>
             </div>
             <div className='flex flex-col gap-2 mt-6'>
               <button className='bg-blue-600 text-white py-2 font-semibold rounded-md hover:bg-blue-500'>Send inquiry</button>
