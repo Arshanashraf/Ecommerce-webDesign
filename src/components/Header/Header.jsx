@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Logo from '../../assets/images/logo/logo.png';
 import { Link, useNavigate } from 'react-router-dom';
+import Ger from '../../assets/images/flags/ger.jpeg'
 
 function Header({ onSearchChange }) {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -197,7 +198,7 @@ function Header({ onSearchChange }) {
             </select>
             <button className="flex ">
               <span>Ship to</span>
-              <img src="/src/assets/images/flags/ger.jpeg" className="w-5 ml-1 pt-1.5" alt="" />
+              <img src={Ger} className="w-5 ml-1 pt-1.5" alt="" />
               <select></select>
             </button>
           </div>
