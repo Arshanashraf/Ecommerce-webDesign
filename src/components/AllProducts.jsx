@@ -27,7 +27,6 @@ const AllProducts = ({ products }) => {
         <div className="grid grid-cols-1 xs:gird-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           
           {products.map((product) => (
-            <Link to={`/details/${product.id}`} key={product.id}>
               <div
                 
                 className="bg-white border border-gray-300 shadow-md shadow-gray-400 rounded-lg flex gap-2 p-4 hover:scale-105 transition-transform xs:flex-col sm:flex-col lg:flex-col 2xs:flex-col"
@@ -45,9 +44,12 @@ const AllProducts = ({ products }) => {
             <ul className="list-disc flex gap-8 pl-5 marker:text-gray-400 2xs:hidden xs:hidden sm:hidden lg:hidden"><li className="text-gray">154 orders</li><li className="text-green-500">Free Shipping</li></ul>
             </div>
             <p className="mt-3 text-lg text-gray-400 pr-10 xs:hidden sm:hidden lg:hidden 2xs:hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero reprehenderit illo, quam, </p>
-            <a href="#" className="text-blue-500 text-lg font-semibold mt-2.5">View details</a>
+            <div className="flex flex-wrap gap-2 mt-2">
+              <Link to={`/details/${product.id}`} key={product.id} className="text-blue-500 text-lg px-5 py-1.5 font-semibold border-2 border-blue-500 rounded-md hover:bg-blue-500 hover:text-white">View details</Link>
+              <button className="text-white bg-blue-500 text-lg px-3 py-1.5 font-semibold rounded-md border-2 border-blue-500 hover:bg-white hover:text-blue-500">Add to cart <i className="fa-solid fa-shopping-cart "></i></button>
             </div>
-          </div></Link>
+            </div>
+          </div>
           ))}
         </div>
       )}
