@@ -22,6 +22,13 @@ import Bag from "../assets/images/details/bag.png"
 import Kettle from "../assets/images/details/kettle.png"
 import Short from "../assets/images/details/short.png"
 import Camera from "../assets/images/details/goproCamera.png"
+import Rice from "../assets/images/details/rice.jpeg"
+import Earpods from "../assets/images/details/airpods.jpg"
+import Machine from "../assets/images/details/machine.jpeg"
+import Dryer from "../assets/images/details/dryer.jpeg"
+import Purifier from "../assets/images/details/purifier.jpg"
+import Mouse from "../assets/images/details/mouse.jpg"
+
 export const products = [
     { id: 1, name: "Smartphone", price: 699,discount1: 650, discount2: 600, rating: 4.5, category: "Electronics", brand: "Lenovo", image: Phone },
     { id: 2, name: "Laptop", price: 999,discount1: 950, discount2: 900,  rating: 4.7, category: "Electronics", brand: "Apple", image: Laptop },
@@ -47,11 +54,11 @@ export const products = [
     { id: 22, name: "Electric Kettle", price: 200,discount1: 150, discount2: 100,  rating: 4.8, category: "Home Appliances", brand: "Sony", image: Kettle },
     { id: 23, name: "Jeans Shorts", price: 70, discount1: 60, discount2: 50, rating: 4.6, category: "Clothing", brand: "Nike", image: Short },
     { id: 24, name: "Canon Camera", price: 499,discount1: 449, discount2: 400,  rating: 4.8, category: "Modern tech", brand: "Sony", image: Camera },
-    { id: 25, name: "Rice Cooker", price: 400, discount1: 350, discount2: 300, rating: 4.1, category: "Home Appliances", brand: "Sony", image: "/src/assets/images/details/rice.jpeg" },
-    { id: 26, name: "Earpods", price: 400,discount1: 350, discount2: 300,  rating: 4.2, category: "Modern tech" , brand: "Apple", image: "/src/assets/images/details/airpods.jpg" },
-    { id: 27, name: "Washing Machine", price: 700, discount1: 780, discount2: 750, rating: 4.6, category: "Home Appliances", brand: "Sony", image: "/src/assets/images/details/machine.jpeg" },
-    { id: 28, name: "Hair Dryer", price: 200,discount1: 150, discount2: 100,  rating: 4.8, category: "Modern tech", brand: "Sony", image: "/src/assets/images/details/dryer.jpeg" },
-    { id: 29, name: "Air purifier", price: 200, discount1: 150, discount2: 130, rating: 4.6, category: "Home Appliances", brand: "Nike", image: "/src/assets/images/details/purifier.jpg" },
-    { id: 30, name: "Gaming mouse", price: 499,discount1: 449, discount2: 400,  rating: 4.8, category: "Modern tech", brand: "Sony", image: "/src/assets/images/details/mouse.jpg" },
+    { id: 25, name: "Rice Cooker", price: 400, discount1: 350, discount2: 300, rating: 4.1, category: "Home Appliances", brand: "Sony", image: Rice},
+    { id: 26, name: "Earpods", price: 400,discount1: 350, discount2: 300,  rating: 4.2, category: "Modern tech" , brand: "Apple", image: Earpods },
+    { id: 27, name: "Washing Machine", price: 700, discount1: 780, discount2: 750, rating: 4.6, category: "Home Appliances", brand: "Sony", image: Machine },
+    { id: 28, name: "Hair Dryer", price: 200,discount1: 150, discount2: 100,  rating: 4.8, category: "Modern tech", brand: "Sony", image: Dryer },
+    { id: 29, name: "Air purifier", price: 200, discount1: 150, discount2: 130, rating: 4.6, category: "Home Appliances", brand: "Nike", image: Purifier },
+    { id: 30, name: "Gaming mouse", price: 499,discount1: 449, discount2: 400,  rating: 4.8, category: "Modern tech", brand: "Sony", image: Mouse },
   ];
   

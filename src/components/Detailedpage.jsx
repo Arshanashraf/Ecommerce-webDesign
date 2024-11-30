@@ -3,6 +3,12 @@ import { useParams } from 'react-router-dom';
 import { products } from './products';
 import Icon1 from '../assets/images/Icon/Vector.png'
 import Icon2 from '../assets/images/Icon/shopping_basket.png'
+import Watch from '../assets/images/section2/smartWatch.png'
+import Camera from '../assets/images/section2/goproCamera.png'
+import Headphones from '../assets/images/section2/headphones.png'
+import Phone from '../assets/images/section2/phone.png'
+import Laptop from '../assets/images/section2/laptop.png'
+import Phone3 from '../assets/images/section4/phone3.png'
 const Detailedpage = () => {
     const { productId } = useParams(); 
     const product = products.find((p) => p.id === parseInt(productId));
@@ -203,7 +209,7 @@ const Detailedpage = () => {
         <div className='flex justify-center flex-wrap gap-5'>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
             <div className='w-[172px] bg-white px-5 rounded-t-md'>
-              <img src="/src/assets/images/section2/canonCameras.png" alt="" className='w-[131px] rounded-t-md'/>
+              <img src={Phone3} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
               <h1 className='leading-5'>Xiaomi Redmi 8 <br />Original</h1>
@@ -212,7 +218,7 @@ const Detailedpage = () => {
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
             <div className='w-[172px] bg-white px-5 rounded-t-md'>
-              <img src="/src/assets/images/section2/goproCamera.png" alt="" className='w-[131px] rounded-t-md'/>
+              <img src={Camera} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
               <h1 className='leading-5'>Xiaomi Redmi 8 <br />Original</h1>
@@ -221,7 +227,7 @@ const Detailedpage = () => {
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
             <div className='w-[172px] bg-white px-5 rounded-t-md'>
-              <img src="/src/assets/images/section2/headphones.png" alt="" className='w-[131px] rounded-t-md'/>
+              <img src={Headphones} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
               <h1 className='leading-5'>Xiaomi Redmi 8 <br />Original</h1>
@@ -230,7 +236,7 @@ const Detailedpage = () => {
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
             <div className='w-[172px] bg-white px-5 rounded-t-md'>
-              <img src="/src/assets/images/section2/smartWatch.png" alt="" className='w-[131px] rounded-t-md'/>
+              <img src={Watch} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
               <h1 className='leading-5'>Xiaomi Redmi 8 <br />Original</h1>
@@ -239,7 +245,7 @@ const Detailedpage = () => {
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
             <div className='w-[172px] bg-white px-5 rounded-t-md'>
-              <img src="/src/assets/images/section2/laptop.png" alt="" className='w-[131px] rounded-t-md'/>
+              <img src={Laptop} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
               <h1 className='leading-5'>Xiaomi Redmi 8 <br />Original</h1>
@@ -248,7 +254,7 @@ const Detailedpage = () => {
           </div>
           <div className='bg-gray-200 border border-gray-300 rounded-md hover:scale-105'>
             <div className='w-[172px] bg-white px-5 rounded-t-md'>
-              <img src="/src/assets/images/section2/canonCameras.png" alt="" className='w-[131px] rounded-t-md'/>
+              <img src={Phone} alt="" className='w-[131px] rounded-t-md'/>
             </div>
             <div className='px-1 py-2'>
               <h1 className='leading-5'>Xiaomi Redmi 8 <br />Original</h1>
