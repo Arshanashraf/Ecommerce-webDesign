@@ -2,8 +2,8 @@ import React,{useState} from 'react'
 import { useParams } from 'react-router-dom';
 import { products } from './products';
 import Ger from '../assets/images/flags/ger.jpeg'
-import Check from '../assets/images/flags/check.png'
-import World from '../assets/images/flags/world.png'
+import Check from '../assets/images/Icon/check.png'
+import World from '../assets/images/Icon/world.png'
 import Icon1 from '../assets/images/Icon/Vector.png'
 import Icon2 from '../assets/images/Icon/shopping_basket.png'
 import Watch from '../assets/images/section2/smartWatch.png'
