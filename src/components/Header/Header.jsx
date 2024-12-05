@@ -90,10 +90,10 @@ function Header({ onSearchChange }) {
               <i className="fa-solid fa-heart w-5 mr-1 "></i>
               <p>Orders</p>
             </a>
-            <a href="/mycart" className="flex flex-col items-center text-gray-400">
+            <Link to="/mycart" className="flex flex-col items-center text-gray-400">
               <i className="fa-solid fa-cart-shopping w-5  mr-1 md:pt-2 md:text-2xl 2xs:pt-2 2xs:text-2xl"></i>
               <p className="md:hidden 2xs:hidden">My cart</p>
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
