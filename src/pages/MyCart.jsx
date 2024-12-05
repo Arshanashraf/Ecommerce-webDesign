@@ -52,7 +52,7 @@ const MyCart = () => {
   );
 
   return (
-    <div className="checkout-page">
+    <div className="checkout-page" id='/mycart'>
       <h2>Checkout</h2>
 
       <div className="order-summary">
