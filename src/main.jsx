@@ -9,6 +9,7 @@ import Home from './pages/Home.jsx'
 import Products from './pages/Products.jsx'
 import Details from './pages/Details.jsx'
 import MyCart from './pages/MyCart.jsx'
+import OrderSummary from './pages/OrderSummary.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       },{
         path: "/mycart",
         element: <MyCart />
+      },
+      {
+        path: "/order-summary",
+        element: <OrderSummary />
       }
     ]
   }

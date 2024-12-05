@@ -30,7 +30,7 @@ import Purifier from "../assets/images/details/purifier.jpg"
 import Mouse from "../assets/images/details/mouse.jpg"
 
 export const products = [
-    { id: 1, name: "Smartphone", price: 699,discount1: 650, discount2: 600, rating: 4.5, category: "Electronics", brand: "Lenovo", image: Phone },
+    { id: 1, name: "Smartphone", price: 699, discount1: 650, discount2: 600, rating: 4.5, category: "Electronics", brand: "Lenovo", image: Phone },
     { id: 2, name: "Laptop", price: 999,discount1: 950, discount2: 900,  rating: 4.7, category: "Electronics", brand: "Apple", image: Laptop },
     { id: 3, name: "T-Shirt", price: 100, discount1: 70, discount2: 50, rating: 4.1, category: "Clothing", brand: "Nike", image: Shirt },
     { id: 4, name: "Blender", price: 499,discount1: 390, discount2: 350,  rating: 4.2, category: "Home Appliances", brand: "Sony", image: Blender },

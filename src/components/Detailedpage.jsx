@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
-import { useParams } from 'react-router-dom';
-import { products } from './products';
+import { useNavigate, useParams } from 'react-router-dom';
+import { products } from './products.js';
 import Ger from '../assets/images/flags/ger.jpeg'
 import Check from '../assets/images/Icon/check.png'
 import World from '../assets/images/Icon/world.png'
@@ -12,8 +12,12 @@ import Headphones from '../assets/images/section2/headphones.png'
 import Phone from '../assets/images/section2/phone.png'
 import Laptop from '../assets/images/section2/laptop.png'
 import Phone3 from '../assets/images/section4/phone3.png'
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../store/cartSlice';
 const Detailedpage = () => {
     const { productId } = useParams(); 
+    const dispatch = useDispatch();
+    const navigate = useNavigate()
     const product = products.find((p) => p.id === parseInt(productId));
     const [activeTab, setActiveTab] = useState('Description');
   
@@ -26,6 +30,12 @@ const Detailedpage = () => {
     const handleTabClick = (tab) => {
       setActiveTab(tab);
     };
+
+    const handleAddToCart = (product) => {
+      dispatch(addToCart(product));
+      navigate('/mycart')
+      console.error("product added", product);
+    }
     return (
     <div className='mx-20 2xs:mx-2 xs:mx-2'>
       <p className='text-gray-500 py-3'>Home <span className='px-1'>&#62;</span> Products <span className='px-1'>&#62;</span> {product.category} <span className='px-1'>&#62;</span> {product.name}</p>
@@ -113,7 +123,7 @@ const Detailedpage = () => {
       </div>
       <div className="flex flex-wrap gap-2 mt-4 justify-center">
               
-              <button className="text-white bg-blue-500 text-lg px-3 py-1.5 font-semibold rounded-md border-2 border-blue-500 hover:bg-white hover:text-blue-500">Add to cart <i className="fa-solid fa-shopping-cart "></i></button>
+              <button onClick={()=>handleAddToCart(product)} className="text-white bg-blue-500 text-lg px-3 py-1.5 font-semibold rounded-md border-2 border-blue-500 hover:bg-white hover:text-blue-500" on>Add to cart <i className="fa-solid fa-shopping-cart "></i></button>
               <a href='#' className="text-blue-500 text-lg px-6 py-1.5 font-semibold border-2 border-blue-500 rounded-md hover:bg-blue-500 hover:text-white">Buy now <i className="fa-solid fa-bag-shopping "></i></a>
             </div>
       </div>
