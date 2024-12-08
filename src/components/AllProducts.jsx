@@ -13,6 +13,7 @@ const AllProducts = ({ products }) => {
   const handleCartButton = (product) => {
     console.log("Adding product to cart:", product);
     dispatch(addToCart(product));
+    alert("Added to cart!")
   };
 
   return (
