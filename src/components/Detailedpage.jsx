@@ -33,6 +33,7 @@ const Detailedpage = () => {
 
     const handleAddToCart = (product) => {
       dispatch(addToCart(product));
+      alert("Added to cart!")
       navigate('/mycart')
       console.error("product added", product);
     }
