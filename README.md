@@ -8,6 +8,8 @@ A fully responsive and dynamic e-commerce web application built with **React**, 
 
 - **Product Filtering**: A dedicated filter section to sort and filter products based on categories or attributes.
 - **Search Bar**: Real-time product filtering through a responsive search bar.
+- **Cart Management**: Add/remove products, adjust quantities, and calculate total price dynamically.
+- **Order Summary Page**: Displays a detailed order summary before checkout.
 - **Responsive Design**: Optimized for mobile, tablet, and desktop devices.
 - **React Router**: Seamless navigation across different pages.
 - **State Management**: Efficiently managed using Redux for a smooth user experience.
@@ -28,11 +30,20 @@ A fully responsive and dynamic e-commerce web application built with **React**, 
 2. **Search Bar**  
    - Provides real-time search capabilities.
    - Filters product listings as the user types.
+  
+3. **My Cart Page**
+   - Users can view products added to their cart.
+   - Adjust product quantities and remove items.
+   - Displays the total price dynamically.
 
-3. **Responsive Layout**  
+4. **Order Summary Page**
+   -Summarizes the order before checkout.
+   - Displays product details, quantities, and final totals.
+  
+5. **Responsive Layout**  
    - Ensures the application looks great on all devices.
 
-4. **Dynamic Routing**  
+6. **Dynamic Routing**  
    - Uses React Router for effortless page transitions and navigation.
 
 
