@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Grid1 from "../assets/images/Icon/grid.png";
 import Bars from "../assets/images/Icon/bars.png";
+import Filter from "../assets/images/Icon/filter.png"
+import Sort from "../assets/images/Icon/sort.png"
 import { useDispatch } from "react-redux";
 import { addToCart } from "../store/cartSlice"; // Assuming you have an addToCart action in cartSlice
 
@@ -18,17 +20,27 @@ const AllProducts = ({ products }) => {
 
   return (
     <main className="flex-1">
-      <div className="flex justify-between sm:justify-center bg-white px-2 py-4 mb-3 rounded-md border border-gray-300 shadow-md shadow-gray-400 xs:hidden 2xs:hidden">
-        <div className="sm:hidden">
+      <div className="flex justify-between sm:justify-center bg-white px-2 py-4 mb-3 rounded-md border border-gray-300 shadow-md shadow-gray-400 ">
+        <div className="sm:hidden  xs:hidden 2xs:hidden">
           <h1>
             12,991 items in <span className="font-semibold">Mobile accessories</span>
           </h1>
         </div>
         <div className="flex gap-1.5">
-          <div>
+          <div className="2xs:hidden">
             <input type="checkbox" /> Verified only
           </div>
-          <div>
+          <div className="hidden 2xs:block">
+          <div className="flex gap-2">
+          <div className="border border-gray-300 px-2 py-0.5 items-center -mt-1 rounded-lg flex">
+            <p>Sort: Newest </p><img src={Sort} alt="" className=" pl-2"/>
+          </div>
+          <div className="border border-gray-300 px-4 py-0.5 -mt-1 items-center rounded-lg flex">
+            <p>Filters (3)</p><img src={Filter} alt="" className="pl-2" />
+          </div>
+          </div>
+          </div>
+          <div className="2xs:hidden">
             <select
               name=""
               id=""
@@ -56,7 +68,7 @@ const AllProducts = ({ products }) => {
       {products.length === 0 ? (
         <div className="text-center text-gray-600">No products found.</div>
       ) : (
-        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product) => (
             <div
               key={product.id}
