@@ -15,7 +15,7 @@ const Sidebar = ({ filters, onFilterChange }) => {
   };
 
   return (
-    <aside className="w-1/4 2xs:w-1/3 xs:w-1/3 bg-white rounded-md shadow-md p-4 border border-gray-300 shadow-gray-400">
+    <aside className="w-1/4 2xs:w-1/3 xs:w-1/3 bg-white rounded-md shadow-md p-4 2xs:hidden   border border-gray-300 shadow-gray-400">
       {/* Category Filter */}
       <div className="mb-6 border-b border-gray-300 pb-4">
         <div

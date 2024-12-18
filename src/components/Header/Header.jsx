@@ -5,6 +5,7 @@ import Ger from '../../assets/images/flags/ger.jpeg'
 
 function Header({ onSearchChange }) {
   const [menuVisible, setMenuVisible] = useState(false);
+  const [menuVisible2, setMenuVisible2] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const menuRef = useRef(null);
   const navigate = useNavigate();
@@ -13,10 +14,14 @@ function Header({ onSearchChange }) {
   const handleMenuToggle = () => {
     setMenuVisible((prev) => !prev);
   };
+  const handleFirstMenuToggle = () => {
+    setMenuVisible2((prev) => !prev);
+  };
 
   const handleClickOutside = (event) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
       setMenuVisible(false);
+      setMenuVisible2(false);
     }
   };
 
@@ -50,6 +55,33 @@ function Header({ onSearchChange }) {
       <nav className="px-0 w-full  md:px-16 sm:px-2 xs:px-1 2xs:px-0">
         <div className=" mx-auto px-14 md:px-1 md:mx-2 flex  justify-between py-5 xs:px-0 2xs:px-2 2xs:mx-0 ">
           <div className="flex items-center space-x-4 -mt-1 md:mr-4 sm:mr-10 2xs:mr-10">
+          <button
+              id="menu-toggle"
+              onClick={handleFirstMenuToggle}
+              className=" text focus:outline-none relative hidden 2xs:block items-center font-semibold "
+            >
+              <i className="fas fa-bars text-3xl"></i>
+            </button>
+            <nav
+            id="menu"
+            ref={menuRef}
+            className={`absolute flex flex-col text-white w-28 text-center z-20 bg-blue-700 space-y-2 mt-40 -left-4 shadow-lg rounded-lg shadow-gray-600  ${
+              menuVisible2 ? '' : 'hidden'
+            }`}
+          >
+            <Link to="/account" className="hover:bg-blue-500 rounded-t-lg px-3 py-1">
+              Account
+            </Link>
+            <Link to="/message" className="hover:bg-blue-500 px-3 py-1">
+              Message
+            </Link>
+            <Link to="/orders" className="hover:bg-blue-500 px-3 py-1">
+              Orders
+            </Link>
+            <Link to="/mycart" className="hover:bg-blue-500 rounded-b-lg px-3 py-1">
+              My Cart
+            </Link>
+          </nav>
             <Link to="/" className="flex items-center text-blue-300 text-3xl font-bold">
               <img src={Logo} className="w-12 mr-1" alt="" />Brand
             </Link>
@@ -146,7 +178,7 @@ function Header({ onSearchChange }) {
               menuVisible ? '' : 'hidden'
             }`}
           >
-            <Link to="/products" className="hover:bg-blue-100 px-3 py-1">
+            <Link to="/products" className="hover:bg-blue-100 rounded-t-lg px-3 py-1">
               Automobiles
             </Link>
             <Link to="/products" className="hover:bg-blue-100 px-3 py-1">
@@ -167,7 +199,7 @@ function Header({ onSearchChange }) {
             <Link to="/products" className="hover:bg-blue-100 px-3 py-1">
               Machinery tools
             </Link>
-            <Link to="/products" className="hover:bg-blue-100 px-3 py-1">
+            <Link to="/products" className="hover:bg-blue-100 rounded-b-lg px-3 py-1">
               More categories
             </Link>
           </nav>
